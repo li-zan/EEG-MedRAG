@@ -1,0 +1,14 @@
+# EEG representations and graph storage
+numpy
+numba
+networkx
+nano-vectordb
+
+# Model requests, tokenization, and progress
+openai
+tenacity
+tiktoken
+tqdm
+
+# Text extraction from knowledge-source PDFs
+pypdf
