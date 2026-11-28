@@ -1,6 +1,6 @@
 # EEG-MedRAG
 
-Code for *EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarchical Hypergraph Retrieval-Augmented Generation*.
+Official implementation of [EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarchical Hypergraph Retrieval-Augmented Generation](https://arxiv.org/abs/2508.13735).
 
 ## Overview
 
@@ -94,3 +94,23 @@ GPT-4.1-mini judges answer correctness, evidence coverage, and context relevance
 | `<model>/answers.json` | Answer correctness (AC) and token-level F1 |
 | `retrieval.json` | Evidence coverage (EC), context relevance (CRel), and context length |
 | `eeg.json` | EEG label agreement at five neighbors (LA@5) and its same-domain random expectation |
+
+## Citation
+
+If you find this work helpful in your research, please cite our paper.
+
+```bibtex
+@misc{meng2026eegmedragenhancingeegbasedclinical,
+  title         = {{EEG-MedRAG}: Enhancing {EEG}-based Clinical Decision-Making via Hierarchical Hypergraph Retrieval-Augmented Generation},
+  author        = {Lu Meng and Zan Li and Yi Wang and Yi Ding and Ziyue Zhu and Fang Li and Ziyu Jia and Anh Tuan Luu and Xinliang Zhou and Qingsong Wen and Haoran Luo},
+  year          = {2026},
+  eprint        = {2508.13735},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2508.13735}
+}
+```
+
+## Acknowledgments
+
+We thank the [HyperGraphRAG](https://github.com/LHRLAB/HyperGraphRAG) authors for sharing their work.
